@@ -15,5 +15,5 @@ Stereo to 5.1 Upmixer based on Dolby Pro Logic II algorithm, extended with a Hil
 * Ludger Brümmer: Please don't click on his face, it annoys him. (He just wants to enjoy the Raumklang)
 
 ### Credits
-Algorithm: Joel Schellhorn (Choelniko)
+Algorithm: Joel Schellhorn (Choelniko)\
 GUI: Emre Nurbeyler
