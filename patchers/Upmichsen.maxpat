@@ -10,12 +10,122 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 379.0, 87.0, 627.0, 887.0 ],
+		"rect" : [ 34.0, 87.0, 1200.0, 887.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"style" : "emre-solarized",
 		"subpatcher_template" : "placer-setup",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 642.783469140529633, 545.876258075237274, 211.273230850696564, 74.0 ],
+					"text" : "to do: implement a way to count the amount of unintentional John Cage - 4:33 performances during the uptime of upmichsen."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 766.5, 349.269264221191406, 69.0, 25.0 ],
+					"text" : "delay 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 766.5, 470.362867534160614, 37.0, 25.0 ],
+					"text" : "4:33"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 719.911562353372574, 411.504457890987396, 54.0, 25.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 720.0, 378.472806394100189, 50.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+					"bgcolor2" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.003921568627451, 0.156862745098039, 0.298039215686275, 0.0 ],
+					"bgfillcolor_color1" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+					"bgfillcolor_color2" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"gradient" : 1,
+					"id" : "obj-65",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 659.070385336875916, 500.624952256679535, 79.841177016496658, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 122.326242610812187, 263.20166739821434, 79.841177016496658, 25.0 ],
+					"text" : "128 BPM",
+					"textcolor" : [ 0.76078431372549, 0.76078431372549, 0.76078431372549, 0.47 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 719.911562353372574, 443.362867534160614, 57.0, 25.0 ],
+					"text" : "$1 BPM"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 720.0, 349.269264221191406, 45.0, 25.0 ],
+					"text" : "round"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 11.0,
 					"id" : "obj-52",
@@ -23,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 723.5, 205.958514034748077, 69.0, 22.0 ],
+					"patching_rect" : [ 699.324277639389038, 206.258696436882019, 69.0, 22.0 ],
 					"text" : "delay 500"
 				}
 
@@ -36,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 723.5, 233.692326962947845, 73.0, 22.0 ],
+					"patching_rect" : [ 699.324277639389038, 233.692326962947845, 73.0, 22.0 ],
 					"text" : "zoomfactor 2"
 				}
 
@@ -130,8 +240,8 @@
 					"id" : "obj-164",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -143,11 +253,35 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -43.0, 125.0, 1000.0, 780.0 ],
+						"rect" : [ 34.0, 125.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"style" : "emre-solarized",
 						"subpatcher_template" : "placer-setup",
 						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-3",
+									"index" : 3,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 200.653601109981537, 448.366027235984802, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-2",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 149.891301810741425, 495.173929084697761, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-1",
@@ -478,7 +612,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-149", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-145", 0 ]
 								}
 
@@ -493,6 +627,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-165", 1 ],
+									"order" : 1,
+									"source" : [ "obj-145", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
 									"order" : 0,
 									"source" : [ "obj-145", 0 ]
 								}
@@ -552,6 +694,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-131", 0 ],
+									"order" : 1,
+									"source" : [ "obj-168", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"order" : 0,
 									"source" : [ "obj-168", 0 ]
 								}
 
@@ -586,7 +737,7 @@
 
 							}
  ],
-						"originid" : "pat-248",
+						"originid" : "pat-308",
 						"styles" : [ 							{
 								"name" : "emre-solarized",
 								"default" : 								{
@@ -781,7 +932,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 17.171716332435608, 13.636362969875336, 95.959591269493103, 95.959591269493103 ],
+					"patching_rect" : [ 16.97344034910202, -10.026895604030884, 95.959591269493103, 95.959591269493103 ],
 					"pic" : "upmx.name.svg",
 					"presentation" : 1,
 					"presentation_rect" : [ 92.0, 25.0, 140.0, 53.0 ],
@@ -830,7 +981,7 @@
 					"patching_rect" : [ 116.973449885845184, 24.615386962890625, 26.735651195049286, 26.675026135650079 ],
 					"pic" : "/Users/emre/Dropbox (Maestral)/Elektronik/max-patches/upmx.5-1/ludger.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 139.0, 195.123165130615234, 47.198278337717056, 47.091252763255113 ],
+					"presentation_rect" : [ 139.0, 193.80416202545166, 47.198278337717056, 47.091252763255113 ],
 					"varname" : "ludger"
 				}
 
@@ -855,12 +1006,12 @@
 				"box" : 				{
 					"fontsize" : 9.0,
 					"id" : "obj-19",
-					"linecount" : 25,
+					"linecount" : 27,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.742671191692352, 187.692325592041016, 122.0, 277.0 ],
-					"text" : "||--Algorithm--||\nJoel Schellhorn\n\n||----UI/UX----||\nEmre Nurbeyler\n\n||--Changelog--||\n\nv2.0 - Revamped visuals, added Ludger head bobbing (Requires FluCoMa)\n\nv1.4 - Various fixes and tweaks\n\nv1.3 - Fixed math\n\nv1.2 - Fixed typo\n\nv1.1 - Fixed mode switch loading\n\nv1.0 - Initial release\n\n||-2025-01-07--||"
+					"patching_rect" : [ 17.742671191692352, 187.692325592041016, 122.0, 298.0 ],
+					"text" : "||--Algorithm--||\nJoel Schellhorn\n\n||----UI/UX----||\nEmre Nurbeyler\n\n||--Changelog--||\n\nv2.0.1 - Added BPM display\n\nv2.0 - Revamped visuals, added Ludger head bobbing (Requires FluCoMa)\n\nv1.4 - Various fixes and tweaks\n\nv1.3 - Fixed math\n\nv1.2 - Fixed typo\n\nv1.1 - Fixed mode switch loading\n\nv1.0 - Initial release\n\n||-2025-01-07--||"
 				}
 
 			}
@@ -1303,7 +1454,7 @@
 
 							}
  ],
-						"originid" : "pat-258"
+						"originid" : "pat-318"
 					}
 ,
 					"patching_rect" : [ 416.363648772239685, 473.076968193054199, 62.456906596819579, 22.0 ],
@@ -1468,7 +1619,7 @@
 
 							}
  ],
-						"originid" : "pat-260"
+						"originid" : "pat-320"
 					}
 ,
 					"patching_rect" : [ 365.454556345939636, 473.076968193054199, 60.606062412261963, 22.0 ],
@@ -1633,7 +1784,7 @@
 
 							}
  ],
-						"originid" : "pat-262"
+						"originid" : "pat-322"
 					}
 ,
 					"patching_rect" : [ 310.90910017490387, 473.076968193054199, 63.296060601870238, 22.0 ],
@@ -1798,7 +1949,7 @@
 
 							}
  ],
-						"originid" : "pat-264"
+						"originid" : "pat-324"
 					}
 ,
 					"patching_rect" : [ 259.393947124481201, 473.076968193054199, 61.734285513559996, 22.0 ],
@@ -1963,7 +2114,7 @@
 
 							}
  ],
-						"originid" : "pat-266"
+						"originid" : "pat-326"
 					}
 ,
 					"patching_rect" : [ 206.060612201690674, 472.307737350463867, 62.424244284629822, 22.0 ],
@@ -2128,7 +2279,7 @@
 
 							}
  ],
-						"originid" : "pat-268"
+						"originid" : "pat-328"
 					}
 ,
 					"patching_rect" : [ 151.515156030654907, 472.307737350463867, 64.228451172510773, 22.0 ],
@@ -2644,6 +2795,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-164", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"source" : [ "obj-164", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-164", 0 ],
 					"source" : [ "obj-166", 0 ]
 				}
@@ -3119,6 +3284,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"order" : 1,
 					"source" : [ "obj-58", 0 ]
@@ -3224,6 +3396,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-65", 1 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.988333463668823, 0.400561958551407, 0.999338030815125, 1.0 ],
 					"destination" : [ "obj-53", 1 ],
 					"midpoints" : [ 184.115401268005371, 434.396631836891174, 206.243607203165681, 434.396631836891174 ],
@@ -3237,6 +3423,27 @@
 					"destination" : [ "obj-54", 1 ],
 					"midpoints" : [ 234.884636878967285, 432.764301687479019, 258.984856486320496, 432.764301687479019 ],
 					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 1 ],
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"source" : [ "obj-78", 0 ]
 				}
 
 			}
@@ -3304,7 +3511,7 @@
 
 			}
  ],
-		"originid" : "pat-246",
+		"originid" : "pat-306",
 		"dependency_cache" : [ 			{
 				"name" : "emr.bpmest.maxpat",
 				"bootpath" : "~/Documents/Max 9/Projects/Upmichsen/Upmichsen/patchers",
