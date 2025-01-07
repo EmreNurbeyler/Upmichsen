@@ -2,7 +2,7 @@
 	"name" : "Upmichsen",
 	"version" : 1,
 	"creationdate" : 3809428815,
-	"modificationdate" : 3812897162,
+	"modificationdate" : 3819064840,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -19,13 +19,30 @@
 		}
 ,
 		"media" : 		{
+			"surround2.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"upmx.name.svg" : 			{
 				"kind" : "vectorimagefile",
 				"local" : 1
 			}
+
+		}
 ,
-			"surround.png" : 			{
-				"kind" : "imagefile",
+		"externals" : 		{
+
+		}
+,
+		"other" : 		{
+			"LICENSE" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"README.md" : 			{
+				"kind" : "file",
 				"local" : 1
 			}
 
