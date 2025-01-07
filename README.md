@@ -18,4 +18,4 @@ Stereo to 5.1 Upmixer based on Dolby Pro Logic II algorithm, extended with a Hil
 Algorithm: Joel Schellhorn (Choelniko)\
 GUI: Emre Nurbeyler
 
-![](upmichsen.jpg)
+![](upmichsen.png)
