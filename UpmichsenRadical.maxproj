@@ -1,8 +1,8 @@
 {
-	"name" : "Upmichsen",
+	"name" : "UpmichsenRadical",
 	"version" : 1,
-	"creationdate" : 3809428815,
-	"modificationdate" : 3819064840,
+	"creationdate" : 3822479083,
+	"modificationdate" : 3822664019,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Upmichsen.maxpat" : 			{
+			"UpmichsenRadical.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -19,32 +19,10 @@
 		}
 ,
 		"media" : 		{
-			"surround2.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"upmx.name.svg" : 			{
-				"kind" : "vectorimagefile",
-				"local" : 1
-			}
 
 		}
 ,
 		"externals" : 		{
-
-		}
-,
-		"other" : 		{
-			"LICENSE" : 			{
-				"kind" : "file",
-				"local" : 1
-			}
-,
-			"README.md" : 			{
-				"kind" : "file",
-				"local" : 1
-			}
 
 		}
 
@@ -58,7 +36,7 @@
 
 	}
 ,
-	"detailsvisible" : 1,
+	"detailsvisible" : 0,
 	"amxdtype" : 0,
 	"readonly" : 0,
 	"devpathtype" : 0,
